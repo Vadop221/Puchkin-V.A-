@@ -1,0 +1,8 @@
+a=int(input("Введите число: "))
+b=int(input("Введите число: "))
+if a < b:
+    for i in range(a,b+1):
+        print(i)
+else:
+    for z in range(a,b-1,-1):
+        print(z)
